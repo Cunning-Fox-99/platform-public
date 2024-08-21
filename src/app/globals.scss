@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-	--foreground-rgb: 0, 0, 0;
-	--background-start-rgb: 214, 219, 220;
-	--background-end-rgb: 255, 255, 255;
+	--foreground-rgb: 255, 255, 255;
+	--background-start-rgb: 0, 0, 0;
+	--background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,15 +16,11 @@
 	}
 }
 
-.bg-sidebar {
-	background: #dde1e1;
-}
-
 body {
 	@apply text-base overflow-hidden;
 	font-family: var(--font-zen), sans-serif;
 	color: rgb(var(--foreground-rgb));
-	background-color: #dde1e1;
+	background-color: #0e0f0f;
 
 	@media (max-width: 1200px) {
 		font-size: 16px;
